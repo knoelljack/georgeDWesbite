@@ -1,4 +1,11 @@
 .App {
   text-align: center;
 }
-
+.valentina {
+  font-family: "Valentina";
+}
+.cherrylime {
+  font-family: "Cherrylime";
+  transition: 1s ease-out;
+  /* color: "white"; */
+}

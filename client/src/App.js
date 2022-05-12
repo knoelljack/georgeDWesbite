@@ -13,6 +13,9 @@ import SocialLinks from './Components/SocialLinks'
 import Home from './views/Home'
 import About from './views/About'
 import Contact from './views/Contact'
+import Vids from './views/Vids';
+import Shows from './views/Shows';
+import './App.css'
 
 const navStyle = {
   fontSize : "20px",
@@ -34,6 +37,8 @@ function App() {
               >
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
+                <Nav.Link href="/dawghousetv">DawgHouseTV</Nav.Link>
+                <Nav.Link href="/shows">Upcoming Shows</Nav.Link>
                 <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -45,6 +50,12 @@ function App() {
         </Route>
         <Route exact path='/about'>
           <About/>
+        </Route>
+        <Route exact path='/dawghousetv'>
+          <Vids/>
+        </Route>
+        <Route exact path='/shows'>
+          <Shows/>
         </Route>
         <Route exact path='/contact'>
           <Contact/>

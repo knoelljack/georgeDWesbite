@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Valentina";
+  src: local("Valentina"),
+  url('./fonts/Valentina/Valentina.otf') format("opentype");
+  /* font-weight: bold; */
+}
+@font-face {
+  font-family: "Cherrylime";
+  src: local("Cherrylime"), 
+  url('./fonts/Cherrylime/Cherrylime.ttf') format("truetype");
+}
