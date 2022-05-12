@@ -1,8 +1,42 @@
 import React from 'react'
+import {Col,Row,Container} from 'react-bootstrap';
+
+const listStyle = {
+    listStyleType : "none",
+    color: "white",
+    fontSize : "40pt"
+}
+const containerStyle = {
+    textAlign : "center",
+    backgroundColor: "black"
+}
+
+const titleStyle = {
+    color: "yellow",
+    fontSize: "100pt",
+    textDecoration: "underline"
+}
 
 const Shows = () => {
   return (
-    <div>Shows</div>
+    <>
+        <Container style={containerStyle} fluid>
+            <Row>
+                <Col>
+                    <h1 className='cherrylime' style={titleStyle}>Upcoming Shows</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <ul style={listStyle} className='perfectlyTogether'>
+                        <li>5/14 - "Isaiah and Amigos” at The Hollywood Comedy</li>
+                        <li>5/22 – Rick’s Alhambra</li>
+                        <li>5/27 – “We Own the Laughs” at The Pasadena Comedy</li>
+                    </ul>
+                </Col>
+            </Row>
+        </Container>
+    </>
   )
 }
 

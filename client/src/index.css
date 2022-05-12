@@ -23,3 +23,8 @@ code {
   src: local("Cherrylime"), 
   url('./fonts/Cherrylime/Cherrylime.ttf') format("truetype");
 }
+@font-face {
+  font-family: "PerfectlyTogether";
+  src: local("Perfect"), 
+  url('./fonts/Perfect/PerfectlyTogether.otf') format("opentype");
+}

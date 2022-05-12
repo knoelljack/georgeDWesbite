@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/Valentina/Valentina.otf';
 import './fonts/Cherrylime/Cherrylime.ttf';
+import './fonts/Perfect/PerfectlyTogether.otf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

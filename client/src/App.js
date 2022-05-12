@@ -27,11 +27,11 @@ function App() {
     <BrowserRouter>
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container fluid className="justify-content-space-between">
-            <Navbar.Brand href="/">George Dulcich</Navbar.Brand>
+            <Navbar.Brand className='perfectlyTogether' href="/">George Dulcich</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="ms-auto text-center"
+              className="ms-auto text-center perfectlyTogether"
               style={navStyle}
               navbarScroll
               >
