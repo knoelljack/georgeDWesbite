@@ -2,40 +2,31 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const myStyle = {
-    // backgroundImage : "url(/georgeImages/4.jpeg)",
+    backgroundImage : "url(/georgeImages/3.jpeg)",
     backgroundColor: "black",
     display : "flex",
     height : "1000px",
     width : "100%",
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    textAlign : "center"
+    textAlign : "center",
+    justifyContent: "center",
+}
+const titleStyle = {
+    position : "absolute",
+    bottom : "30%"
 }
 
 const Home = () => {
   return (
     <>
         <Container style={myStyle} fluid>
-            {/* <Row className="d-flex">
+            <Row style={titleStyle}>
                 <Col>
-                    <Image fluid src="/georgeImages/1.jpeg"></Image>
+                    <p className='cherrylime' style={{fontSize : "150px", color : "yellow"}}>George</p>
                 </Col>
                 <Col>
-                    <Image fluid src="/georgeImages/4.jpeg"></Image>
-                </Col>
-                <Col>
-                    <Image fluid src="/georgeImages/8.jpeg"></Image>
-                </Col>
-            </Row>
-            <Row>
-                <Col className = "text-center">
-                    <Image fluid src="/georgeImages/4.jpeg"></Image>
-                </Col>
-            </Row> */}
-            <Row>
-                <Col>
-                    <img src='/georgeImages/3.jpeg'></img>
-                    <p className='cherrylime' style={{fontSize : "150px", color : "yellow"}}>George<br></br>Dulcich</p>
+                    <p className='cherrylime' style={{fontSize : "150px", color : "yellow"}}>Dulcich</p>
                 </Col>
             </Row>
         </Container>

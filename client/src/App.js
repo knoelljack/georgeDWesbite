@@ -19,7 +19,6 @@ import './App.css'
 
 const navStyle = {
   fontSize : "20px",
-  maxHeight: '100px'
 }
 
 function App() {
@@ -35,11 +34,11 @@ function App() {
               style={navStyle}
               navbarScroll
               >
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
-                <Nav.Link href="/dawghousetv">DawgHouseTV</Nav.Link>
-                <Nav.Link href="/shows">Upcoming Shows</Nav.Link>
-                <Nav.Link href="/contact">Contact</Nav.Link>
+                <Nav.Link className='nav-links' href="/">Home</Nav.Link>
+                <Nav.Link className='nav-links' href="/about">About</Nav.Link>
+                <Nav.Link className='nav-links' href="/dawghousetv">DawgHouse TV</Nav.Link>
+                <Nav.Link className='nav-links' href="/shows">Upcoming Shows</Nav.Link>
+                <Nav.Link className='nav-links'  href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Container>

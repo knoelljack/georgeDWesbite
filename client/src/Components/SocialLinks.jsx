@@ -12,12 +12,10 @@ const SocialLinks = () => {
     <>
         <Container style={socialStyle} fluid>
             <Row>
-                <Col></Col>
                 <Col fluid className="text-center justify-content-space-between">
                     <Link to='#'><img src='instagram70light.png'></img></Link>
                     <Link to='#'><img src='twitter70light.png'></img></Link>
                 </Col>
-                <Col></Col>
             </Row>
         </Container>
     </>

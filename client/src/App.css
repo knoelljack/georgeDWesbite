@@ -12,3 +12,6 @@
 .perfectlyTogether {
   font-family: "PerfectlyTogether";
 }
+.nav-links:hover {
+  color: yellow;
+}
