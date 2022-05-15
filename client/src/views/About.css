@@ -1,5 +1,10 @@
 @media(min-width:35.1em){ /* Larger than mobile devices */
-    p {
+    .l-size {
       font-size: 18pt;
+    }
+  }
+@media(max-width:35em){ /*  mobile devices */
+    .xs-size {
+      font-size: 100%;
     }
   }

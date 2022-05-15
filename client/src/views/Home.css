@@ -1,6 +1,7 @@
 @media(min-width:35.1em) {
     /* Larger than mobile devices */
     p {
+        margin : "50% 0%";
         font-size: 20vw;
     }
 }
@@ -10,5 +11,6 @@
     p {
         bottom: 0;
         width: 100%;
+        font-size: 20vw;
     }
 }

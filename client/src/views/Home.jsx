@@ -11,9 +11,9 @@ const myStyle = {
     textAlign: "center",
 }
 const pStyle = {
-    fontSize : "10vw",
+    // fontSize : "10vw",
     color : "yellow",
-    margin : "50% 0%"
+    // margin : "50% 0%"
 }
 
 const Home = () => {
@@ -21,10 +21,10 @@ const Home = () => {
         <>
             <Container style={myStyle} fluid>
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <p className='cherrylime' style={pStyle}>George</p>
                     </Col>
-                    <Col>
+                    <Col xs={12}>
                         <p className='cherrylime' style={pStyle}>Dulcich</p>
                     </Col>
                 </Row>
