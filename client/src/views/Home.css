@@ -1,0 +1,14 @@
+@media(min-width:35.1em) {
+    /* Larger than mobile devices */
+    p {
+        font-size: 20vw;
+    }
+}
+
+@media(max-width:35em) {
+    /* Breakpoint only for mobile */
+    p {
+        bottom: 0;
+        width: 100%;
+    }
+}

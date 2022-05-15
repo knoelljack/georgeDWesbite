@@ -1,37 +1,36 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import './Home.css'
 
 const myStyle = {
-    backgroundImage : "url(/georgeImages/3.jpeg)",
+    backgroundImage: "url(/georgeImages/3.jpeg)",
     backgroundColor: "black",
-    display : "flex",
-    height : "1000px",
-    width : "100%",
+    height: "80vh",
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    textAlign : "center",
-    justifyContent: "center",
+    textAlign: "center",
 }
-const titleStyle = {
-    position : "absolute",
-    bottom : "30%"
+const pStyle = {
+    fontSize : "10vw",
+    color : "yellow",
+    margin : "50% 0%"
 }
 
 const Home = () => {
-  return (
-    <>
-        <Container style={myStyle} fluid>
-            <Row style={titleStyle}>
-                <Col>
-                    <p className='cherrylime' style={{fontSize : "150px", color : "yellow"}}>George</p>
-                </Col>
-                <Col>
-                    <p className='cherrylime' style={{fontSize : "150px", color : "yellow"}}>Dulcich</p>
-                </Col>
-            </Row>
-        </Container>
-    </>
-  )
+    return (
+        <>
+            <Container style={myStyle} fluid>
+                <Row>
+                    <Col>
+                        <p className='cherrylime' style={pStyle}>George</p>
+                    </Col>
+                    <Col>
+                        <p className='cherrylime' style={pStyle}>Dulcich</p>
+                    </Col>
+                </Row>
+            </Container>
+        </>
+    )
 }
 
 export default Home

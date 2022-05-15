@@ -1,0 +1,5 @@
+@media(min-width:35.1em){ /* Larger than mobile devices */
+    p {
+      font-size: 18pt;
+    }
+  }

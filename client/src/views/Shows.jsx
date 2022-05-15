@@ -4,16 +4,16 @@ import {Col,Row,Container} from 'react-bootstrap';
 const listStyle = {
     listStyleType : "none",
     color: "white",
-    fontSize : "40pt"
+    fontSize : "4vw"
 }
 const containerStyle = {
     textAlign : "center",
-    backgroundColor: "black"
+    backgroundColor: "black",
 }
 
 const titleStyle = {
     color: "yellow",
-    fontSize: "100pt",
+    fontSize: "10vw",
     textDecoration: "underline"
 }
 
@@ -30,8 +30,8 @@ const Shows = () => {
                 <Col>
                     <ul style={listStyle} className='perfectlyTogether'>
                         <li>5/14 - "Isaiah and Amigos” at The Hollywood Comedy</li>
-                        <li>5/22 – Rick’s Alhambra</li>
-                        <li>5/27 – “We Own the Laughs” at The Pasadena Comedy</li>
+                        <li>5/22 - Rick’s Alhambra</li>
+                        <li>5/27 - “We Own the Laughs” at The Pasadena Comedy</li>
                     </ul>
                 </Col>
             </Row>
