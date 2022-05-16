@@ -7,11 +7,11 @@ import {
 } from "react-router-dom";
 import SocialLinks from './Components/SocialLinks'
 import TopNav from './Components/TopNav';
-import Home from './views/Home'
-import About from './views/About'
-import Contact from './views/Contact'
-import Vids from './views/Vids';
-import Shows from './views/Shows';
+import Home from './views/Home/Home'
+import About from './views/About/About'
+import Contact from './views/Contact/Contact'
+import Vids from './views/Vids/Vids';
+import Shows from './views/Shows/Shows';
 import './App.css'
 
 function App() {

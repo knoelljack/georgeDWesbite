@@ -11,20 +11,18 @@ const myStyle = {
     textAlign: "center",
 }
 const pStyle = {
-    // fontSize : "10vw",
     color : "yellow",
-    // margin : "50% 0%"
 }
 
 const Home = () => {
     return (
         <>
-            <Container style={myStyle} fluid>
+            <Container className='home' style={myStyle} fluid>
                 <Row>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <p className='cherrylime' style={pStyle}>George</p>
                     </Col>
-                    <Col xs={12}>
+                    <Col xs={12} md={6}>
                         <p className='cherrylime' style={pStyle}>Dulcich</p>
                     </Col>
                 </Row>

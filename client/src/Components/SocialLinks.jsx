@@ -17,6 +17,7 @@ const SocialLinks = () => {
                 <Col fluid className="text-center justify-content-space-between">
                     <Link to='#'><img src='instagram70light.png' alt=''></img></Link>
                     <Link to='#'><img src='twitter70light.png' alt=''></img></Link>
+                    <Link to='#'><img src='youtube70.png' alt=''></img></Link>
                 </Col>
             </Row>
         </Container>

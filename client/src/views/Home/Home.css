@@ -1,0 +1,17 @@
+@media(min-width:35.1em) {
+    /* Larger than mobile devices */
+    .home p {
+        margin : 50% 0%;
+        font-size: 10vw;
+    }
+}
+
+@media(max-width:35em) {
+    /* Breakpoint only for mobile */
+    .home p {
+        /* bottom: 0; */
+        /* width: 100%; */
+        font-size: 22vw;
+        margin-top: 45%;
+    }
+}
