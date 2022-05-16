@@ -1,10 +1,11 @@
 import React from 'react'
 import {Col,Row,Container} from 'react-bootstrap';
+import './Shows.css'
 
 const listStyle = {
     listStyleType : "none",
     color: "white",
-    fontSize : "4vw"
+    fontSize : "4vw",
 }
 const containerStyle = {
     textAlign : "center",

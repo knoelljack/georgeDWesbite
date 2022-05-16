@@ -1,0 +1,14 @@
+@media(max-width:35em){
+    /* mobile */
+    #shows h1 {
+        margin-top: 10%;
+    }
+    #shows li {
+        margin-bottom: 10px;
+    }
+}
+@media(min-width: 35.1em){
+    #shows li {
+        margin-bottom: 20px;
+    }
+}
