@@ -9,6 +9,7 @@ const listStyle = {
 const containerStyle = {
     textAlign : "center",
     backgroundColor: "black",
+    height : "100vh"
 }
 
 const titleStyle = {
@@ -20,7 +21,7 @@ const titleStyle = {
 const Shows = () => {
   return (
     <>
-        <Container style={containerStyle} fluid>
+        <Container id='shows' style={containerStyle} fluid>
             <Row>
                 <Col>
                     <h1 className='cherrylime' style={titleStyle}>Upcoming Shows</h1>

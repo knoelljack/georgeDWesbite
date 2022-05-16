@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: fit-content;
 }
 .valentina {
   font-family: "Valentina";
@@ -15,3 +16,4 @@
 .nav-links:hover {
   color: yellow!important;
 }
+

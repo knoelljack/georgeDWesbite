@@ -5,7 +5,7 @@ import './Home.css'
 const myStyle = {
     backgroundImage: "url(/georgeImages/3.jpeg)",
     backgroundColor: "black",
-    height: "80vh",
+    height: "100vh",
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     textAlign: "center",
@@ -20,7 +20,7 @@ const Home = () => {
             <Container className='home' style={myStyle} fluid>
                 <Row>
                     <Col xs={12} md={6}>
-                        <p className='cherrylime' style={pStyle}>George</p>
+                        <p className='cherrylime' id='first' style={pStyle}>George</p>
                     </Col>
                     <Col xs={12} md={6}>
                         <p className='cherrylime' style={pStyle}>Dulcich</p>
