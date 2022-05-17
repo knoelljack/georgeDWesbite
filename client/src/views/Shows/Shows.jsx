@@ -5,7 +5,7 @@ import './Shows.css'
 const listStyle = {
     listStyleType : "none",
     color: "white",
-    fontSize : "4vw",
+    // fontSize : "4vw",
 }
 const containerStyle = {
     textAlign : "center",
@@ -15,7 +15,7 @@ const containerStyle = {
 
 const titleStyle = {
     color: "yellow",
-    fontSize: "10vw",
+    // fontSize: "10vw",
     textDecoration: "underline"
 }
 

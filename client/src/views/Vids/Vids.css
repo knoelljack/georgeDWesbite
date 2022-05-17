@@ -1,5 +1,5 @@
 iframe {
-    padding: 5px;
+    /* padding: 5px; */
     border: 5px solid yellow;
 }
 @media(max-width:35em){
@@ -14,7 +14,7 @@ iframe {
 @media(min-width:35.1em){
     /* larger screens */
     iframe {
-        width: 512px;
+        width: 100%;
     }
     #vids h1 {
         font-size: 10vw;
