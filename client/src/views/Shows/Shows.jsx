@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import {Col,Row,Container} from 'react-bootstrap';
-import './Shows.css'
+import './Shows.css';
 
 const listStyle = {
     listStyleType : "none",
     color: "white",
-    // fontSize : "4vw",
 }
 const containerStyle = {
     textAlign : "center",
@@ -15,12 +14,40 @@ const containerStyle = {
 
 const titleStyle = {
     color: "yellow",
-    // fontSize: "10vw",
     textDecoration: "underline"
 }
+const url = "https://docs.google.com/spreadsheets/d/169Fv1KH7Buvx1xqizhATqGq166FzRFs1zdgenaTH5ZA/gviz/tq?";
+
 
 const Shows = () => {
-  return (
+
+    const output = document.querySelector('.output');
+    const [loading,setLoading] = useState(true);
+
+    useEffect(() => {
+        getShowData();
+    }, [loading]);
+
+    async function getShowData(){
+        setLoading(true);
+        await fetch(url)
+            .then(res => res.text())
+            .then(rep => {
+                const data = JSON.parse(rep.substring(47).slice(0,-2));
+                data.table.rows.forEach((main) => {
+                    console.log(main);
+                    const showDate = main.c[0].f;
+                    const showName = main.c[1].v;
+                    const item = document.createElement('li');
+                    item.textContent = showDate + " - " + showName;
+                    output.append(item);
+                })
+            })
+            .finally(setLoading(false))
+            .catch(err => console.log(err));
+        }
+
+    return (
     <>
         <Container id='shows' style={containerStyle} fluid>
             <Row>
@@ -30,10 +57,10 @@ const Shows = () => {
             </Row>
             <Row>
                 <Col>
-                    <ul style={listStyle} className='perfectlyTogether'>
-                        <li>5/14 - "Isaiah and Amigos” at The Hollywood Comedy</li>
-                        <li>5/22 - Rick’s Alhambra</li>
-                        <li>5/27 - “We Own the Laughs” at The Pasadena Comedy</li>
+                    <ul style={listStyle} className='perfectlyTogether output'>
+                        { loading ? (
+                            <li>Loading...</li>
+                        ) : null }
                     </ul>
                 </Col>
             </Row>
