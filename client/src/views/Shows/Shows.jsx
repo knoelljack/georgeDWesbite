@@ -38,8 +38,14 @@ const Shows = () => {
                     console.log(main);
                     const showDate = main.c[0].f;
                     const showName = main.c[1].v;
+                    const showLink = main.c[2].v === null ? '#' : main.c[2].v;
                     const item = document.createElement('li');
-                    item.textContent = showDate + " - " + showName;
+                    const a = document.createElement('a');
+                    const linkText = document.createTextNode(showDate + " - " + showName);
+                    a.appendChild(linkText);
+                    a.title = linkText;
+                    a.href = showLink;
+                    item.append(a);
                     output.append(item);
                 })
             })
@@ -66,7 +72,7 @@ const Shows = () => {
             </Row>
         </Container>
     </>
-  )
+    )
 }
 
 export default Shows
