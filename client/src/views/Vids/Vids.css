@@ -24,3 +24,13 @@ iframe {
         height: 100vh;
     }
 }
+@media(max-height:800px){
+    iframe {
+        height: 200px;
+    }
+}
+@media(min-height:801px){
+    iframe {
+        height: 315px;
+    }
+}

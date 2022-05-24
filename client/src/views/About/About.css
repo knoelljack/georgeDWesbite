@@ -7,11 +7,6 @@
       height: 100vh;
     }
   }
-@media(max-width:35em){ /*  mobile devices */
-    .xs-size {
-      font-size: 100%;
-    }
-  }
 /* @media(min-width:1400px){
   .l-size {
     font-size: 1.3vw;
@@ -37,5 +32,10 @@
   }
   #about #first img {
     width: 75%;
+  }
+}
+@media(max-width:35em){ /*  mobile devices */
+  .xs-size {
+    font-size: 100%;
   }
 }
