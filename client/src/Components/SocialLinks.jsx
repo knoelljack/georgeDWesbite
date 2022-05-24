@@ -13,7 +13,7 @@ const SocialLinks = () => {
     <>
         <Container style={socialStyle} fluid>
             <Row>
-                <Col fluid className="text-center justify-content-space-between">
+                <Col className="text-center justify-content-space-between">
                     <a href='https://www.instagram.com/georgedulcich/'><img src='instagram70light.png' alt=''></img></a>
                     <a href='https://twitter.com/georgedulcich'><img src='twitter70light.png' alt=''></img></a>
                     <a href='https://www.youtube.com/channel/UCtQARoui_0HGmwNZcJnZVkA'><img src='youtube70.png' alt=''></img></a>

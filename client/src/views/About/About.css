@@ -1,6 +1,6 @@
 @media(min-width:35.1em){ /* Larger than mobile devices */
     .l-size {
-      font-size: 18pt;
+      font-size: 2vw;
       margin-top: 15%;
     }
     #about {
@@ -15,3 +15,9 @@
       font-size: 100%;
     }
   }
+
+@media(min-width:1400px){
+  .l-size {
+    font-size: 1.5vw;
+  }
+}
