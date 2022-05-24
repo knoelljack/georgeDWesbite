@@ -23,7 +23,7 @@ const About = () => {
         <Container id='about' fluid style={contStyle}>
             <Row>
                 <Col id='first' xs={12} md={6} style={colStyle} >
-                    <Image fluid className='my-auto' src="/georgeImages/8.jpeg"></Image>
+                    <Image fluid src="/georgeImages/8.jpeg"></Image>
                 </Col>
                 <Col>
                     <p className='perfectlyTogether xs-size l-size' style={paragraphStyle}>George Dulcich is a Los Angeles based comedian born and raised in Glendale, California. He began his stand-up career in New York City in 2019 but returned to Los Angeles “after things went to crap” at the onset of the pandemic. <br></br><br></br>

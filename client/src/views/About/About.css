@@ -35,4 +35,7 @@
   .xs-size{
     font-size: 1.2vw;
   }
+  #about #first img {
+    width: 75%;
+  }
 }
