@@ -1,13 +1,10 @@
 @media(min-width:35.1em){ /* Larger than mobile devices */
     .l-size {
       font-size: 2vw;
-      margin-top: 15%;
+      /* margin-top: 15%; */
     }
     #about {
       height: 100vh;
-    }
-    #about #first {
-      margin-top: 12%;
     }
   }
 @media(max-width:35em){ /*  mobile devices */
@@ -16,8 +13,22 @@
     }
   }
 
-@media(min-width:1400px){
+/* @media(min-width:1400px){
+  .l-size {
+    font-size: 1.3vw;
+  }
+} */
+@media(min-height:1000px){
   .l-size {
     font-size: 1.5vw;
+  }
+  #about #first {
+    margin-top: 6%;
+  }
+}
+@media(max-height:999px){
+  .xs-size {
+    font-size: 1.38vw;
+    
   }
 }

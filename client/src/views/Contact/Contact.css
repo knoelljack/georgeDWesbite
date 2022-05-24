@@ -1,0 +1,15 @@
+@media(min-height:1000px){
+    #contact img {
+        margin: 12% 0%;
+    }
+}
+@media(max-height:999px){
+    #contact img {
+        width: 70%;
+        margin-top: 5%;
+    }
+}
+#contact {
+    align-items: center;
+    justify-content: center;
+}

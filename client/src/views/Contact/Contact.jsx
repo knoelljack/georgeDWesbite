@@ -1,17 +1,17 @@
 import React from 'react'
 import { Col, Container, Row, Image } from 'react-bootstrap'
+import './Contact.css'
 
 const pStyle = {
   color : "white",
   textAlign : "center",
-  padding : "15% 10%",
+  // padding : "15% 10%",
 }
 
 const cStyle = {
   textAlign : "center",
-  justifyContent : "center",
   padding : "0",
-  margin : "12% 0%"
+  // margin : "12% 0%"
 }
 const containStyle = {
   backgroundColor: "black",
