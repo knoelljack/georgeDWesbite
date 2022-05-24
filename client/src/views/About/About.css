@@ -12,7 +12,6 @@
       font-size: 100%;
     }
   }
-
 /* @media(min-width:1400px){
   .l-size {
     font-size: 1.3vw;
@@ -21,6 +20,7 @@
 @media(min-height:1000px){
   .l-size {
     font-size: 1.5vw;
+    font-size-adjust: 100ch;
   }
   #about #first {
     margin-top: 6%;
@@ -29,6 +29,10 @@
 @media(max-height:999px){
   .xs-size {
     font-size: 1.38vw;
-    
+  }
+}
+@media(max-height:780px){
+  .xs-size{
+    font-size: 1.2vw;
   }
 }
